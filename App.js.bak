@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+import { AppRegistry, Text,View } from 'react-native';
+import { AreaChart } from "react-native-charts";
+let data = [
+    {name: "A", public: 4000, private: 2400, protected: 2400},
+    {name: "B", public: 3000, private: 1398, protected: 2210},
+    {name: "C", public: 2000, private: 9800, protected: 2290}
+];
+let meta = [
+    {dataKey: "public", name: "Public",  fill: "#F44336"},
+    {dataKey: "private", name: "Private",  fill: "red"},
+    {dataKey: "protected", name: "Protected", fill: "blue"}
+];
+
+// skip this line if using Create React Native App
+//AppRegistry.registerComponent('AwesomeProject', () => HelloWorldApp);
+

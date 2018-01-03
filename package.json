@@ -1,0 +1,35 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "art": "^0.10.1",
+    "d3": "^4.12.2",
+    "d3-shape": "^1.2.0",
+    "expo": "^24.0.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-charts": "^3.0.0",
+    "react-native-circular-progress": "^0.1.2",
+    "react-native-elements": "^0.18.5",
+    "react-native-git-upgrade": "^0.2.7",
+    "react-native-svg-charts": "^2.0.1",
+    "react-navigation": "^1.0.0-beta.22",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest-expo": "^24.0.0"
+  },
+  "name": "helloreact",
+  "version": "0.51.0",
+  "description": "Fuckers",
+  "author": "",
+  "license": "ISC"
+}
